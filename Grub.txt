@@ -1,0 +1,14 @@
+--Sistema operacional nao aparece no iniciar--
+sudo os-prober
+sudo update-grub
+
+--grub rescue--
+ls
+
+ls (hd0)
+set
+prefix
+
+--dentro do SO--
+sudo os-prober
+grub-install /dev/so
